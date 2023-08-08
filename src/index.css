@@ -39,6 +39,7 @@ body::after {
 .section .title {
   z-index: 5;
   margin-bottom: 1rem;
+  color: orange;
 }
 
 .container {
@@ -64,13 +65,14 @@ body::after {
   text-transform: uppercase;
   padding: .3rem;
   width: 50px;
-  transition: 0.5s;
+  transition: .5s;
   color: aliceblue;
   border-radius: 9px;
+  border: none;
 }
 
 .tab-page .active {
-  background-color: #fff;
+  background-color: transparent;
   color: #4ab421;
   width: 79px;
   transition: 0.5s;
