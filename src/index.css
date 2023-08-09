@@ -39,7 +39,7 @@ body::after {
 .section .title {
   z-index: 5;
   margin-bottom: 1rem;
-  color: orange;
+  font-size: 2.3rem;
 }
 
 .container {
@@ -105,7 +105,7 @@ body::after {
   text-transform: uppercase;
   position: relative;
   margin-bottom: 1rem;
-  color: aliceblue;
+  color: rgb(235, 181, 32);
 }
 
 .tab-title::before {
@@ -129,6 +129,7 @@ body::after {
   border-radius: 12px;
   text-transform: uppercase;
   text-align: right;
+  color: #dbdbdb;
 }
 
 .glass {
